@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:1px;
+
+}
+.heading{
+    margin-left:10% ;
+    height: 35px;
+    width:80%;
+    color: rgb(241, 52, 52);
+    align-content: center;
+}
+.data {
+    height: 500px;
+    width: 75%;
+    background-color: rgb(199, 209, 156);
+    margin-left: 10%;
+    margin-top: 40px;
+    padding: 20px;
+    display: inline-block;
+  }
+table{
+    margin-top: 40px;
+    width:75%;
+}
+th{
+    padding:10px;
+    color: rgb(34, 5, 141);
+}
+td{
+    padding: 1px;
+    text-align: center;
+}
+.search{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+#value{
+    width: 50%;
+    
+}
+button{
+    background-color: darkgoldenrod;
+    column-rule-style: ridge;
+}

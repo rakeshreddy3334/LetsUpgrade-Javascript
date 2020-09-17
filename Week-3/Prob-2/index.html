@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="project">
+        <div class="heading">
+            <h1>BUS RESERVATION SYSTEM</h1>
+        </div>
+        <div class="userForm">
+            <p><marquee>Fill the details to add the bus to our storage</marquee></p>
+            <form onsubmit="addBus(event)">
+                <input type="text" required placeholder="name" id="bname">
+                <input type="text"required placeholder="source" id="bsource">
+                <input type="text"required placeholder="destination" id="bdest">
+                <input type="number" required placeholder="number" id="bno">
+                <input type="number" required placeholder="capacity" id="bcapacity">
+                <input type="submit" required value="ADD BUS" id="submit">
+            </form>
+        </div>
+        <div class="search">
+            <p><marquee>** Search here **</marquee></p>
+            <input type="text" placeholder="search here" id="Svalue" onkeydown="searchBus()">
+        </div>
+        <div class="Button">
+            <button onclick="clearStorage()">Clear Storage</button>
+        </div>
+        <div class="tablediv">
+            <table border="1" cellspacing="0px" class="mytable">
+                <thead>
+                    <th>name</th>
+                    <th>source</th>
+                    <th>Destination</th>
+                    <th>number</th>
+                    <th>passenger capacity</th>
+                </thead>
+                <tbody class="tableData"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

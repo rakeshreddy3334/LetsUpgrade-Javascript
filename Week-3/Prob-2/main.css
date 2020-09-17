@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 1px;
+}
+.heading{
+    margin-left:10% ;
+    height: 35px;
+    width:80%;
+    color: rgb(241, 52, 52);
+    align-content: center;
+}
+.search{
+    margin-left: 100px;
+    background-color: darkgray;
+    width:73%;
+    padding: 10px;
+}
+#Svalue{
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.userForm{
+    background-color: darkgray;
+    margin-top: 20px;
+    margin-left: 100px;
+    width:75%;
+    padding:10px 0px 10px 0px;
+}
+.tablediv{
+    width:75%;
+    height:500px;
+    margin-left: 100px;
+    background-color: rgb(138, 193, 230);
+    display: block;
+}
+.mytable{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+th{
+    padding:10px;
+    color: rgb(34, 5, 141);
+}
+td{
+    padding: 1px;
+    text-align: center;
+}
+#submit{
+    background-color: rgb(214, 159, 20);
+    column-rule-style: ridge;
+}
+
+.Button{
+    width:75%;
+    height:15px;
+    margin-left: 100px;
+    background-color: rgb(138, 193, 230);
+    text-align-last: right;
+}
+button{
+    background-color: darkred;
+    color:white;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class='heading'>
+        <h1>Display,Search and Delete Operations on Employee details</h1>
+    </div>
+    <div class="data">
+        <div class="search">
+            <input type="text" placeholder="filter using Employee name and City" id="value" onkeydown="searchTable()">
+        </div>
+        <table border="1" cellspacing="0">
+            <tr>
+                <th>SerialNo.</th>
+                <th>Employee Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Salary</th>
+                <th>Options</th>
+            </tr>
+            <tbody class="tableData"></tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
